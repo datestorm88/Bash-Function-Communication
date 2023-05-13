@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Command 1
+echo "Hello, what is your name?"
+read name
+echo "Nice to meet you, $name!"
+
+# Command 2
+echo "What is your favorite color?"
+read color
+echo "I like $color too!"
+
+# Command 3
+echo "What is your age?"
+read age
+if [ $age -lt 18 ]
+then
+    echo "You are not old enough to vote."
+else
+    echo "You are old enough to vote."
+fi
